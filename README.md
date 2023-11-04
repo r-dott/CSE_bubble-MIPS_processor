@@ -59,7 +59,7 @@ The register file aka [RISC_BUBBLE](RISC_BUBBLE.v) has 32 registers, where each 
 || or r0,r1,r2|  r0=r1 \| r2 | 001101 |
 || andi r0,r1, 1000 | r0= r1 & 1000 | 001110 |
 || ori r0,r1, 1000 | r0= r1 \| 1000| 001111|
-|| sll r0, r1, 10 | r0=r1<<10 | (shift left logical) |000010|
+|| sll r0, r1, 10 | r0=r1<<10 (shift left logical) |000010|
 |Data Transfer| lw r0,10(r1)| r0=Memory[r1+10] (load word) | 000101|
 || sw r0,10(r1) | Memory[r1+10]=r0 (store word)|000100|
 |Conditional Branch|  beq r0,r1,10| if(r0==r1) go to PC+4+10 (branch on equal)|000110|
