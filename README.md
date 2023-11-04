@@ -7,6 +7,7 @@ This project requires us to build a single-cycle MIPS processor. The processorâ€
 32 bits.
 
 We have followed the following model extensively to design the processor:
+
 <img width="405" alt="image" src="https://github.com/r-dott/CSE_bubble-MIPS_processor/assets/101567399/10056548-5cea-4008-b6e5-f58c6a4cf27a">
 
 ### HOW TO RUN THE CODE
